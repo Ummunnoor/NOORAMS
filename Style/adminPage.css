@@ -1,0 +1,56 @@
+
+body{
+    background-image:url('../assets/airline-logos.jpg');
+    height: 100%;
+    background-color: beige;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.header-container ul{
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    gap: 80px;
+   font-family: sans-serif,serif;
+   font-size: 30px;
+}
+.staff-table {
+    width: 80%;
+    overflow: auto;
+    font-family: serif,sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+.staff-table th,.staff-table td{
+    border-bottom: 2px solid ;
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+}
+.box{
+     border-radius: 80px;
+     width: 80px;
+	height: 35px;
+	margin-top: 10px;
+     font-family: verdana;
+	font-size: 12px;
+    background-color: blue;
+}
+.click{
+    border-radius: 80px;
+    width: 100px;
+   height: 35px;
+   margin-top: 10px;
+    cursor: pointer;
+   background-color: blue;
+  padding-left: 30px;
+}

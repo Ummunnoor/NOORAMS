@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.page-container {
+   width: 1000px;
+   margin: 0px auto;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: sans-serif,serif;
+    
+    /* border: 1px solid red; */
+}
+.header-container ul {
+    flex: 1;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.logo-container {
+    width: 100px;
+}
+.logo-container img {
+    width: 100%;
+}
+
+.logo-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content-container{
+    display: flex;
+    gap: 30px;
+
+}
+.content-detail{
+    margin-top: 40px;
+    font-family: sans-serif,serif;
+}
+/* .flight-info-container {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif,serif;
+   background-color: red;
+   height: 120px;
+   margin-left: 80px;
+   border-radius: 30px;
+   gap: 30px;
+   padding-left: 65px;
+   cursor: pointer;
+   border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   width: 120px;
+}  */
+/* ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-self: center;
+    left: 50%;
+} */
+/* .search-bar{
+    margin-top: -60px;
+    
+    justify-content: center;
+    text-align: center;
+    
+} */
+.input{
+    width: 500px;
+    margin-left: 24%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30%;
+    gap: 20%;
+
+}
+.flight-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    height: 120px;
+    padding: 19px;
+    border-radius: 8px;
+    cursor: pointer;
+}
